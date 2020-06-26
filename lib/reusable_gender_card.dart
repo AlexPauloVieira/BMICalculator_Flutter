@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-
-const textGenderStyle = TextStyle(
-  fontSize: 18.0,
-  color: Color(0xFF8D8E98),
-);
+import 'constants.dart';
 
 class ReusableGenderCard extends StatelessWidget {
   ReusableGenderCard({@required this.iconGender, @required this.textGender});
@@ -25,7 +21,7 @@ class ReusableGenderCard extends StatelessWidget {
         ),
         Text(
           textGender.toUpperCase(),
-          style: textGenderStyle,
+          style: kTextGenderStyle,
         ),
       ],
     );
