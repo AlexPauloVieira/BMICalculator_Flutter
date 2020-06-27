@@ -17,7 +17,12 @@ class ResultsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('CALCULAR IMC'),
+        title: Text(
+          'CALCULAR IMC',
+          style: TextStyle(
+            color: Color(0xFFFFCC00),
+          ),
+        ),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
